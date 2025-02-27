@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: saibaba
+  datasource:
+    url: jdbc:postgresql://localhost:5434/postgres
+    username: postgres
+    password: postgres
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  jpa:
+    hibernate:
+      ddl-auto: update
